@@ -70,6 +70,8 @@ GEM
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
     puma (3.4.0)
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (2.0.0.rc1)
       json
     rack-test (0.6.3)
@@ -149,6 +151,7 @@ DEPENDENCIES
   doorkeeper (~> 4.0.0.rc4)
   listen (~> 3.0.5)
   puma (~> 3.0)
+  pundit (~> 1.1.0)
   rails (>= 5.0.0.rc2, < 5.1)
   rspec-rails (~> 3.5.0.beta4)
   spring
