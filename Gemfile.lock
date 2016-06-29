@@ -176,7 +176,6 @@ DEPENDENCIES
   rspec-rails (~> 3.5.0.beta4)
   spring
   spring-watcher-listen (~> 2.0.0)
-  tzinfo-data
 
 BUNDLED WITH
    1.12.5
