@@ -26,5 +26,11 @@ module RailsApiTemplate
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    config.generators do |g|
+      g.test_framework  :rspec
+      g.stylesheets     false
+      g.javascripts     false
+    end
   end
 end
