@@ -2,6 +2,11 @@ Rails.application.routes.draw do
   devise_for :users
   root to: "home#index"
 
-  use_doorkeeper
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # use_doorkeeper
+
+  namespace :api, defaults: { format: 'json' } do
+    namespace :v1 do
+      resources :users
+    end
+  end
 end
