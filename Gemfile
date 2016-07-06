@@ -38,5 +38,5 @@ end
 group :test do
   gem 'factory_girl_rails', '~> 4.7.0'
   gem 'rspec-rails', '~> 3.5.0.beta4'
-  gem 'shoulda'
+  gem 'shoulda-matchers'
 end
