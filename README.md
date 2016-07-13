@@ -6,7 +6,6 @@
 
 ### What's Included:
 
-* Sidekiq for background processing
 * ActiveModel serializer gem which should work great if you plan to use Ember.js
 
 ```bash

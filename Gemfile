@@ -21,7 +21,6 @@ gem 'active_model_serializers', '~> 0.10.1'
 gem 'devise', '~> 4.1.1'
 gem 'doorkeeper', '~> 4.0.0.rc4'
 gem 'pundit', '~> 1.1.0'
-gem 'sidekiq', '~> 4.1.4'
 
 group :development, :test do
   gem 'byebug', platform: :mri
