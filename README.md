@@ -2,7 +2,12 @@
 
 ### Status: WIP
 
-### Purpose: for API's and for teaching my students who to create SPA's.
+### Purpose: for API's and for teaching my students who want to create SPA's.
+
+### What's Included:
+
+* Sidekiq for background processing
+* ActiveModel serializer gem which should work great if you plan to use Ember.js
 
 ```bash
 $ git clone --depth 1 git://github.com/katgironpe/rails_api_template.git myapi
