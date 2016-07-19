@@ -25,6 +25,7 @@ gem 'resque', '~> 1.26.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'guard-rubocop'
 end
 
 group :development do
