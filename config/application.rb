@@ -32,6 +32,7 @@ module RailsApiTemplate
       g.test_framework  :rspec
       g.stylesheets     false
       g.javascripts     false
+      g.factory_girl dir: 'spec/factories'
     end
   end
 end
